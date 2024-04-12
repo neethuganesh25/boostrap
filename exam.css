@@ -1,0 +1,51 @@
+.form input{
+    padding: 5px;
+}
+.class1{
+    width:30%;
+    justify-content: center;
+    box-shadow: 2%;
+}
+.form label{
+    border-radius: 5px;
+}
+.form1{
+    margin-left: 33%;
+    box-shadow: 5px;
+    border-radius: 10px;
+    
+}
+.p-3{
+    text-decoration: none;
+}
+#link{
+    color:black
+}
+#link:hover {
+    color: rgb(80, 38, 220);
+}
+.btn
+{
+    background-color: red;
+    animation: anim 0.5s;
+    color: black;
+}
+
+@keyframes anim {
+   20% {
+        rotate: 15deg;
+    }
+    
+}
+ img:hover{
+    animation: rotate 5s;
+}
+
+@keyframes rotate {
+  10%{
+    transform: rotate(360deg) ;
+  }
+  20%{
+    transform: rotate(-360deg);
+  }
+}
